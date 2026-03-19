@@ -2,3 +2,4 @@ bin/
 obj/
 *.exe
 .DS_Store
+.vs/
