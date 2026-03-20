@@ -1,4 +1,4 @@
-﻿// for each문 : 범위기반 for형
+// for each문 : 범위기반 for형
 namespace DrawPaper
 {
     public class Program
