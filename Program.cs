@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace myP
+{
+    class ExClass
+    {
+        static void Main(string[] args)
+        {
+            string s = Console.ReadLine();
+            int i = Int32.Parse(s);
+            s = i.ToString();
+            Console.WriteLine(s);
+        }
+    }
+}

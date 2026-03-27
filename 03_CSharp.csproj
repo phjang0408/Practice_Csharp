@@ -8,21 +8,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 <ItemGroup>
-  <Compile Remove="03_CSharp\**\*.cs" />
   <Compile Remove="공부내역\**\*.cs" />
-</ItemGroup>
-<ItemGroup>
-  <None Include="공부내역\1_기본데이터타입\02_데이터타입_Nullable.cs" />
-  <None Include="공부내역\1_기본데이터타입\1_overflow.cs" />
-  <None Include="공부내역\enum클래스.cs" />
-  <None Include="공부내역\float_double형변환.cs" />
-  <None Include="공부내역\foreach.cs" />
-  <None Include="공부내역\ifelse.cs" />
-  <None Include="공부내역\Nullable타입.cs" />
-  <None Include="공부내역\object형식.cs" />
-  <None Include="공부내역\switch_Object타입.cs" />
-  <None Include="공부내역\var_object차이.cs" />
-  <None Include="공부내역\부호끼리형변환.cs" />
-  <None Include="공부내역\숫자_문자_형변환.cs" />
 </ItemGroup>
 </Project>

@@ -11,7 +11,7 @@ namespace DrawPaper
                 Console.WriteLine("정수입니다.");
                 break;
                 case float f:
-                Console.WriteLine("정수입니다.");
+                Console.WriteLine("실수입니다.");
                 break;
                 default:
                 Console.WriteLine("모르겠습니다.");
