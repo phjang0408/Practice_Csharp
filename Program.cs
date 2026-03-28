@@ -1,13 +1,11 @@
-﻿namespace myP
+﻿namespace MySpace
 {
-    class ExClass
+    class Prog
     {
         static void Main(string[] args)
         {
-            string s = Console.ReadLine();
-            int i = Int32.Parse(s);
-            s = i.ToString();
-            Console.WriteLine(s);
+            int? i = null;
+            Console.WriteLine(i.HasValue);
         }
     }
 }
