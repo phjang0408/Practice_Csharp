@@ -10,7 +10,7 @@ namespace DrawingPaper
             Console.WriteLine(b);
 
             int x = -30;
-            uint y = (uint)x;
+            uint y = (uint)x;   // int.Maxvalue + 29 정도
             Console.WriteLine(y);
         }
     }

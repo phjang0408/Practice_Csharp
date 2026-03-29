@@ -36,6 +36,10 @@ namespace myd
             // 6. 포함하는지 확인 - Contains
             string Lyrics = "You say goodbye, and I say hello";
             Console.WriteLine(Lyrics.Contains("goodbye"));
+
+            // 7. Join 메서드 - 배열의 요소들을 모아, 하나의 문자열로 결합
+            string[] shape = ["Circle", "Square", "Triangle"];
+            Console.WriteLine(string.Join(",",shape));
         }
     }
 
