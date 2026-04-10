@@ -10,7 +10,7 @@ namespace ListStudy
             // 배열과 달리 크기가 고정되지 않고, 요소를 자유롭게 추가/삭제할 수 있음
             List<int> list = new List<int>();
 
-            // ── 추가: Add ────────────────────────────────────────────
+            // ── 추가: Add ──c++ push_back
             list.Add(10);
             list.Add(20);
             list.Add(30);

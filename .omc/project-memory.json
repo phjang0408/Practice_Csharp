@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775827375068,
+  "projectRoot": "/Users/dnln/Desktop/Code/Practice_Csharp",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "bin"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "bin": {
+      "path": "bin",
+      "purpose": "Executable scripts",
+      "fileCount": 0,
+      "lastAccessed": 1775827375053,
+      "keyFiles": []
+    },
+    "obj": {
+      "path": "obj",
+      "purpose": null,
+      "fileCount": 8,
+      "lastAccessed": 1775827375054,
+      "keyFiles": [
+        "03_CSharp.csproj.nuget.dgspec.json",
+        "03_CSharp.csproj.nuget.g.props",
+        "03_CSharp.csproj.nuget.g.targets",
+        "Code.csproj.nuget.dgspec.json",
+        "Code.csproj.nuget.g.props"
+      ]
+    },
+    "공부내역": {
+      "path": "공부내역",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775827375055,
+      "keyFiles": [
+        "로드맵.md"
+      ]
+    },
+    "학교파일": {
+      "path": "학교파일",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1775827375055,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}

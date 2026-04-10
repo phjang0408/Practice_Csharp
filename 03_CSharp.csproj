@@ -9,5 +9,6 @@
   </PropertyGroup>
 <ItemGroup>
   <Compile Remove="공부내역\**\*.cs" />
+  <Compile Remove="학교파일\**\*.cs" />
 </ItemGroup>
 </Project>
