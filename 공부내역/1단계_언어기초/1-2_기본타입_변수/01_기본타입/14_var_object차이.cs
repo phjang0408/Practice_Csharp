@@ -8,10 +8,11 @@ namespace MySpace
         static void Main(string[] args)
         {
             // 1. var: 암시적 타입 (Implicitly Typed)
-            // 선언과 동시에 초기화 필수! 컴파일러가 타입을 추론함.
+            // 컴파일러가 타입을 추론함.
+
+            // var a; -> 에러! 초기화 없이 선언 불가
             var vInt = 101;      // 컴파일러가 int로 확정
             var vString = "Hi";  // 컴파일러가 string으로 확정
-            
             // vInt = "Hello"; // 에러! 이미 int로 결정되었기 때문에 다른 타입 대입 불가
 
             // 2. object: 모든 객체의 조상 (Root Type)
