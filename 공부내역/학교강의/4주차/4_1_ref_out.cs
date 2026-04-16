@@ -25,6 +25,7 @@ namespace DrawPaper
             // 1. ref 사용 - 호출 전 초기화 필수
             int x = 10, y = 20;
             Console.WriteLine($"교환 전: x={x}, y={y}");
+            
             Swap(ref x, ref y);
             Console.WriteLine($"교환 후: x={x}, y={y}");   // x=20, y=10
 
