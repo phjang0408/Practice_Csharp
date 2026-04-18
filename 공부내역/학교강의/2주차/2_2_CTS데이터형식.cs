@@ -19,6 +19,9 @@ namespace DrawPaper
             Console.WriteLine("c type : {0}, value : {1}", c.GetType(), c);
             Console.WriteLine("d type : {0}, value : {1}", d.GetType(), d);
             Console.WriteLine($"{c.GetType()} is format size");
+
+            System.Single f = 3.14f;
+            System.Double g = 123.45;
         }
     }
 }
