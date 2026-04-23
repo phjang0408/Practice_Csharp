@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections; // IEnumerator, IEnumerable 사용을 위해 필요
 
 namespace mySpace
