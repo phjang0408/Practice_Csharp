@@ -4,11 +4,11 @@ namespace DrawPaper
     {
         // 자동구현 프로퍼티
         // 프로퍼티에서, get, set이 간단하면 선언.
-        // 변수도 따로 선언할 필요없이, 프로퍼티로 선언한다.
+        // 변수도 따로 선언할 필요없음.
         // 7.0부터 초기값 설정도 가능하다. 없으면 null
         public string Name { get; set; } = "Unknown";
         public DateTime Birthday { get; set; } = new DateTime(1, 1, 1);
-        public int Age
+        public int Age // 얘도 필드임
         {
             get
             {   // Birthday를 프로퍼티로 접근해서 사용한다.
@@ -31,11 +31,6 @@ namespace DrawPaper
             // set : 프로퍼티 문법
             birth.Name = "장지욱";
             birth.Birthday = new DateTime(2000, 4, 8);
-
-            // get
-            Console.WriteLine($"Name : {birth.Name}");
-            Console.WriteLine($"Birth : {birth.Birthday.ToShortDateString()}");
-            Console.WriteLine($"Age : {birth.Age}");
         }
     }
 }

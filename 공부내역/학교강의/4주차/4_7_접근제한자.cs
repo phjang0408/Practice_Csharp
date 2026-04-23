@@ -8,7 +8,7 @@ namespace DrawPaper
         internal int d;          // 같은 어셈블리(프로젝트)
 
         protected internal int e; // 같은 어셈블리(프로젝트) or 자식 클래스
-        private protected int f;  // 같은 어셈블리(프로젝트) and 자식 클래스만 => 본인도 안 됨
+        private protected int f;  // 같은 어셈블리(프로젝트) and 자식 클래스만
 
         // [IF] 다른 어셈블리 and 자식클래스 라면?
         // protected internal -> 가능!(자식을 or로 만족)

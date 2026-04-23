@@ -6,9 +6,9 @@ namespace DrawPaper
         private DateTime birthday;
 
         // 프로퍼티 : 필드에 대한 안전한 접근 통로
-        public string ProP_Name
+        public string ProP_Name // 필드와는 다른 이름, 함수와 달리 괄호가 없음
         {
-            get { return name; }    
+            get { return name; }
             set { name = value; }   // value : 설정되는 값 (암묵적 매개변수)
         }
 
@@ -24,7 +24,7 @@ namespace DrawPaper
     }
     class Program
     {
-        
+
         static void Main(string[] args)
         {
             BirthdayInfo info = new BirthdayInfo();

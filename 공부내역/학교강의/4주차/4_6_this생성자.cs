@@ -12,7 +12,7 @@ namespace DrawPaper
             // this.a = 5425;  // this(b)덕에 생략가능
             this.b = b;
         }
-        public For_This(int b, int c) : this(b) // -> For_This(int b)를 불러옴
+        public For_This(int b, int c) : this(b) // For_This(int b)를 불러옴
         {
             // this.a = 5425;  // this()덕에 생략가능
             // this.b = b;     // this(b)덕에 생략가능

@@ -20,7 +20,8 @@ namespace DrawPaper
         {
             Product carrot = new Product();
             ref int ref_price = ref carrot.GetPrice();
-            int normal_price = carrot.GetPrice();   // ref
+            // ref로 선언해도, 값으로 받을 수 있음
+            int normal_price = carrot.GetPrice();   
 
             carrot.PrintPrice();
             Console.WriteLine($"Ref Price : {ref_price}");

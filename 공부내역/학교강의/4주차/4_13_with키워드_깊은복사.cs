@@ -16,7 +16,10 @@ namespace DrawPaper
                 TO = "Bob",
                 Amount = 100
             };
-            // with를 사용한 깊은 복사, 일부 필드 값 수정 가능
+            // class는 깊은 복사를 할 때, 멤버 하나하나 복사해야 함.
+            // record는 with문으로 간단히 복사 가능
+            // 또한, 일부 필드 값 변경도 가능
+            // (init인데도 with문으로는 변경 가능)
             RTranssaction tr2 = tr1 with { TO = "Charlie" };
             RTranssaction tr3 = tr1 with { From = "Charlie", Amount = 50 };
 

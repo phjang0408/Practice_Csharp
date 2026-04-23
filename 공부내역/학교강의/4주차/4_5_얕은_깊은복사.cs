@@ -9,7 +9,7 @@ namespace DrawPaper
         public MyClass DeepCopy()
         {
             MyClass newCopy = new MyClass();    // 독립된 힙을 위해, 새로 생성
-            newCopy.MyField1 = this.MyField1;
+            newCopy.MyField1 = this.MyField1;   // 자신의 멤버를 일일히 복사
             newCopy.MyField2 = this.MyField2;
 
             return newCopy;
