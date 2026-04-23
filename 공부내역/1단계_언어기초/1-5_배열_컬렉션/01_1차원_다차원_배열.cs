@@ -32,7 +32,7 @@ namespace ArrayStudy
             // ── 다차원 배열 (2D) ────────────────────────────────────
             Console.WriteLine("\n=== 2차원 배열 ===");
             int[,] exmpl = new int[2,3];
-            int[,] ex2 = new int[,];
+            int[,] ex2 = new int[,]; 
             int[,] matrix = {
                 { 1, 2, 3 },
                 { 4, 5, 6 },

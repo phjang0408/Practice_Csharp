@@ -1,14 +1,1 @@
-﻿using System;
-
-namespace TupleExample
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            string[] array1 = new string[3] { "안녕", "Hello", "Halo" };
-            string[] array2 = new string[] { "안녕", "Hello", "Halo" };
-            string[] array3 = { "안녕", "Hello", "Halo" };
-        }
-    }
-}
+﻿

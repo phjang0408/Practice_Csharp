@@ -13,6 +13,7 @@ namespace DrawPaper
         {
             const int a = 10;   // 상수임
 
+            // 열거형 : 여러개의 '상수'
             Console.WriteLine(COLOR.BLACK);
             Console.WriteLine((int)COLOR.BLACK);
 
