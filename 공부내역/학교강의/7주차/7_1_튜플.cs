@@ -16,10 +16,11 @@ namespace TupleExample
             var tuple2 = (Name: "지욱", Age: 17);
             Console.WriteLine($"{tuple2.Name} {tuple2.Age}");
             // 반대 형태로 분해도 가능
-            var (name, _) = tuple2; // "_"는 특정 필드를 무시한다는 의미
+            // 분해는 이름 마음대로, 개수만 맞추면 됨
+            var (name, _) = tuple2; // "_"는 특정 필드를 무시한다는 의미, 공간은 있지만, 빈 값으로 둠
             var (name2, age2) = ("강표", 49);
 
-            // 3. 두 튜플 사이의 할당 : [필드수]와 [형식]만 같으면 가능
+            // 3. 두 튜플 사이의 할당 : [필드수]와 [형식], [순서]만 같으면 가능 -> 이름은 달라도 됨
             var unnamed = ("슈퍼맨", 9999); // (string, int)
             var named = (Name: "홍길동", Age: 17); // (string, int)            
                                                 

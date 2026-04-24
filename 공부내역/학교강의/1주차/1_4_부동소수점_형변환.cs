@@ -20,7 +20,9 @@ namespace MySpace
             int i_a = (int)f_a;
             Console.WriteLine(i_a);
 
-            
+            double d_b = 0.9;
+            int i_b = (int)d_b;
+            Console.WriteLine(i_b);
         }
     }
 }

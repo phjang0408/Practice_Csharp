@@ -13,7 +13,7 @@ namespace DrawPaper
             // DateTime 변수를 서식 지정할 수 있다.
             Console.WriteLine("{0:yy-MM-dd tt hh:mm:ss (ddd)}", dt);
             // yy : 년도 (뒤 2자리),      yyyy : 네자리 연도
-            // M : 월, (대문자임),        MM : 두 자리수 월
+            // M : 한 자리수 월,            MM : 두 자리수 월
             // d : 일,                   dd : 두 자리수 일
             // tt : 오전/오후,           
 

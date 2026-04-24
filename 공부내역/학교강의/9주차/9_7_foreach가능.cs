@@ -10,7 +10,7 @@ namespace mySpace
         // GetEnumerator가 IEnumerator를 만든다.
         // 이 메서드는 foreach가 자동으로 호출한다.
 
-        // yield 키워드는, return 앞에 붙어, 함수를 종료하지 않고 값을 보내는 키워드다.
+        // yield 키워드는, return 앞에 붙어, 함수를 종료하지 않고, IEnumerator객체를 보내는 키워드다.
         public IEnumerator GetEnumerator()
         {
             yield return numbers[0];    // IEnumerator.Current = numbers[0] 로 저장

@@ -2,10 +2,11 @@ using System.Drawing;
 
 namespace myspace
 {
-    struct ThreeD{
+    struct ThreeD{  // 상속 불가능!
         public int X;
         public int Y;
         public int Z;
+        // 생성자는 매개변수가 필수
         public ThreeD(int X, int Y, int Z)
         {
             this.X = X;
@@ -27,7 +28,7 @@ namespace myspace
         // Main은 struct안에서도 작동
         static void Main(string[] args)
         {
-            ThreeD p1;  // 값으로 선언
+            ThreeD p1;  // 값으로 선언(new필요없음)
             p1.X = 10; p1.Y = 20;p1.Z = 40;
             Console.WriteLine(p1);
 

@@ -1,8 +1,8 @@
 class Mammal
 {
-    public void Nurse() {  }
+    public void Nurse() { }
 }
-class Dog : Mammal 
+class Dog : Mammal
 {
     public void Bark() { }
 }
@@ -19,16 +19,17 @@ class MyClass
         Cat cat = mammal as Cat;
         // 만약 형식 변환 실패했다면 cat은 null
         if (cat != null)
-        { 
+        {
             cat.Meow();
         }
         // 2. is 연산자 : 형식 검사, true/false 반환
         Mammal mammal2 = new Dog();
         Dog dog;
-        if (mammal2 is Dog){
+        if (mammal2 is Dog)
+        {
             dog = (Dog)mammal2;   // 형식 변환
             dog.Bark();
         }
     }
-    
+
 }

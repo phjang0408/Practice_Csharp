@@ -7,6 +7,7 @@ namespace MyExtens
     {
         // 2. static 메서드로 정의
         // 'this int myInt' -> 마침표(.) 앞의 숫자가 'myInt' 파라미터로 자동으로 들어옴
+        // this는 그래서 반드시 하나!
         public static int Square(this int myInt)
         {
             return myInt * myInt;

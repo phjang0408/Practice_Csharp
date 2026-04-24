@@ -24,7 +24,7 @@ public class Yen : Currency
     }
     // implicit, explicit 키워드
     // 원본타입 클래스 안에서 구현
-    // static public implicit operator [변환할 타입](원본 타입){
+    // static public implicit operator [변환할 타입 클래스](원본 타입){
     //      return 변환될 타입형태
     // }
     // implicit은 explicit을 포함하지만, explicit은 implicit을 포함하지 않는다.

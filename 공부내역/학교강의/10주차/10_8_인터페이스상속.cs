@@ -5,7 +5,7 @@ namespace MySpace
     }
     interface IFormattableLogger : Ilogger  // 파생 인터페이스(부모의 메소드 다 받음)
     {
-        void WriteLog(string format, params Object[] args);
+        void WriteLog(string format, params Object[] args); // 다른 메서드임
     }
     class ConsoleLogger2 : IFormattableLogger
     {   // 상속받는 클래스는, 두 개의 인터페이스의 메서드를 다 구현해야 함.

@@ -16,7 +16,7 @@ namespace DrawPaper
         {
             return "Person: " + this.name;
         }
-        // 인터페이스를 가졌는지, 표식 있는지 체크용 함수
+        // 인터페이스를 가졌는지, 표식 있는지 체크용 함수(static은 그냥 같은 안에서 써서)
         private static void DisplayObject(object obj)
         {
             if (obj is IObjectToString)

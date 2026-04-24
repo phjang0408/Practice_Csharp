@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1776473994468,
+  "lastScanned": 1776991916218,
   "projectRoot": "/Users/dnln/Desktop/Code/Practice_Csharp",
   "techStack": {
     "languages": [],
@@ -35,14 +35,14 @@
       "path": "bin",
       "purpose": "Executable scripts",
       "fileCount": 0,
-      "lastAccessed": 1776473994452,
+      "lastAccessed": 1776991916200,
       "keyFiles": []
     },
     "obj": {
       "path": "obj",
       "purpose": null,
       "fileCount": 8,
-      "lastAccessed": 1776473994453,
+      "lastAccessed": 1776991916203,
       "keyFiles": [
         "03_CSharp.csproj.nuget.dgspec.json",
         "03_CSharp.csproj.nuget.g.props",
@@ -55,7 +55,7 @@
       "path": "공부내역",
       "purpose": null,
       "fileCount": 2,
-      "lastAccessed": 1776473994454,
+      "lastAccessed": 1776991916204,
       "keyFiles": [
         "로드맵.md"
       ]
@@ -64,15 +64,135 @@
       "path": "학교파일",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1776473994455,
+      "lastAccessed": 1776991916205,
       "keyFiles": []
     }
   },
   "hotPaths": [
     {
       "path": "Program.cs",
+      "accessCount": 3,
+      "lastAccessed": 1776994082593,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/2주차/2_13_관계연산자.cs",
       "accessCount": 1,
-      "lastAccessed": 1776474017670,
+      "lastAccessed": 1776475942187,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/5주차/5_object1_Equal_GetHash.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776992335668,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/6주차/6_3_하이딩과비교.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776992721073,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/6주차/6_4_object메서드확장.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776992892256,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/6주차/6_6_클래스형변환_implicit_explicit.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776993096107,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/6주차/6_7_readonly.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776993256111,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/6주차/6_9_중첩예제.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776993401652,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/6주차/6_11_확장메서드.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776993652101,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/6주차/6_13_readonly메서드.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776994002299,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/7주차/7_1_튜플.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776994417721,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/7주차/7_2_위치패턴매칭.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776994639120,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/7주차/7_5_Array클래스메서드1.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776994935772,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/9주차/9_7_foreach가능.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776995749403,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/9주차/9_8_IEnumeartor구현.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776996005239,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/9주차/9_9_인터페이스.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776996254626,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/10주차/10_4_콞백인터페이스.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776996726880,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/10주차/10_7_느슨한결합.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776996864608,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/10주차/10_9_기본구현메서드.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776996919918,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/4주차/4_13_with키워드_깊은복사.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776997898442,
+      "type": "file"
+    },
+    {
+      "path": "공부내역/학교강의/4주차/4_14_무명형식.cs",
+      "accessCount": 1,
+      "lastAccessed": 1776997990813,
       "type": "file"
     }
   ],

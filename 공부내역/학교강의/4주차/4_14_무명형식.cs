@@ -8,6 +8,7 @@ namespace DrawPaper
             // var로만 받을 수 있음 (타입 이름이 없으므로)
             // 프로퍼티는 자동으로 읽기 전용(init)으로 생성됨
             var a = new { Name = "홍길동", Age = 123 };
+            var b = new {mi = "wee", mm = 30};
             Console.WriteLine($"Name: {a.Name}, Age: {a.Age}");
 
             // 무명 형식 안에 배열도 포함 가능

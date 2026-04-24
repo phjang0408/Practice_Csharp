@@ -21,7 +21,8 @@ namespace DrawPaper
     }
     class Target // 값을 물어보는 사람
     {
-        public void Do(ISource obj) // 파라미터 : 인터페이스를 가지는 지 확인
+        // 검사용 메서드
+        public void Do(ISource obj) // 매개변수 : ISource가 타입임. 즉, 객체가 인터페이스를 가지는 지 확인
         {
             Console.WriteLine(obj.GetResult()); // Source의, GetResult를 요청한다.
         }

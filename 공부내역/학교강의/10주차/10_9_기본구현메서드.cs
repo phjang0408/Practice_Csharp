@@ -3,7 +3,7 @@ namespace MySpace
     interface ILogger
     {
         void WriteLog(string message);
-        void WriteError(string error) // 기본구현 메소드
+        void WriteError(string error) // 기본구현 메소드 : 인터페이스에서 구현해뒀다는 의미
         {
             WriteLog(error);
         }

@@ -25,7 +25,7 @@ class Configuration
 
         public void SetValue(Configuration config, string item, string value)
         {
-            
+            // 빈 config를 채워넣고
             this.item = item;
             this.value = value;
             bool found = false;

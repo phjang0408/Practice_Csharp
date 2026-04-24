@@ -22,6 +22,7 @@ class MainApp
     {
         Child child = new Child();
         Console.WriteLine(child.Variable);
+        // new는 실제 객체 기준이 아닌, 바라보는 기준!
         Console.WriteLine(((Parent)child).Variable);
 
         child.Method();

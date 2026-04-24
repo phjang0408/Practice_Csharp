@@ -8,13 +8,11 @@ namespace DrawPaper
         {
             // 1. SubString : index로부터, 지정된 문자만큼 잘라, 새 문자열 반환
             string coffee = "Mega MGC Coffee";
-            Console.WriteLine(coffee.Substring(5, 3)); // 인자 하나 : 시작, 개수
+            Console.WriteLine(coffee.Substring(5, 3)); // 인자 둘 : 시작, 개수
             Console.WriteLine(coffee);                  // 원본은 유지됨
-            Console.WriteLine(coffee.Substring(9));    // 인자 둘 : 시작, 끝까지
+            Console.WriteLine(coffee.Substring(9));    // 인자 하나 : 시작, 끝까지
 
-            // 2. Split(구분자, 옵션) : 지정 문자열 기준 분리, 문자열 배열을 반환
-            // 구분자 : 자르는 기준
-            // 옵션 : None(기본값), RemoveEmptyEntries(빈 문자열 제거), TrimEntries(공백 제거)
+            // 2. Split() : 지정 문자열 기준 분리, 문자열 배열을 반환
             string[] arr = coffee.Split(" ", StringSplitOptions.None);
             Console.WriteLine("arr.Length : {0}", arr.Length);
             foreach(string element in arr)
