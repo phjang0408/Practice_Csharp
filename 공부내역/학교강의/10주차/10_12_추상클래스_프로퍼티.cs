@@ -1,4 +1,4 @@
-﻿namespace mySpace
+namespace mySpace
 {
     abstract class Product
     {
