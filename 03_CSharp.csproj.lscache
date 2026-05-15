@@ -58,8 +58,6 @@ obj/Debug/net9.0/
  03_CSharp.AssemblyInfo.cs
  03_CSharp.GlobalUsings.g.cs
 Program.cs
-tempCodeRunnerFile 복사본.cs
-tempCodeRunnerFile.cs
 
 [metadataReferences]
 <DOTNET>/packs/Microsoft.NETCore.App.Ref/9.0.14/ref/net9.0/

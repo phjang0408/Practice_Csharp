@@ -20,7 +20,7 @@ namespace MySpace
     }
     class Switch
     {
-        static void PowerOn(IPower machine) // 느슨한 결합
+        static void PowerOn(IPower machine) // 느슨한 결합 : 둘 다 상속하는 인터페이스를, 매개변수 타입으로 활용
         {
             machine.TurnOn();
         }
