@@ -9,7 +9,7 @@ namespace MySpace
     }
     class Switch
     {
-        public void PowerOn(Computer machine)
+        public void PowerOn(Computer machine)   // 매개변수 타입이, 그 클래스 하나만 특정
         {  
         // 강력한 결합 : 클래스간 호출에 직접 의존
         // Computer 타입을 직접 사용 -> 다른 클래스로 변경할 때, 이것도 변경해야 함.
