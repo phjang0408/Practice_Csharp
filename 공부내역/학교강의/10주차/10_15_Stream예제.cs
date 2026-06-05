@@ -19,8 +19,8 @@ namespace Myspace
                 Console.Write("{0:X2} ", b);
             }
             Console.WriteLine();
-            // wBytes를, 0부터, wBytes.Length만큼, outStream에 Write
-            outStream.Write(wBytes, 0, wBytes.Length);
+    
+            outStream.Write(wBytes, 0, wBytes.Length); // wBytes를, 0부터, wBytes.Length만큼, outStream에 Write
             outStream.Close();
 
             // 2. Read 예제
