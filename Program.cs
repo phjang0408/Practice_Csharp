@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ddf");
+            int a =int.MaxValue;
+            Console.WriteLine(a);
         }
     }
 }

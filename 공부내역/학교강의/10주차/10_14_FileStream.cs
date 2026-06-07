@@ -20,7 +20,7 @@ namespace Myspace
             int offset, // byte 배열 내의 시작 오프셋
             int count // 기록할 데이터의 총 길이(단위는 바이트)
         );
-        public override void WriteByte(byte value);
+        public override void WriteByte(byte value);     // WriteBytes는 하나의 바이트. 시작 위치는 Position이라고 따로 있음
         public override int Read(
             byte[] array, // 읽을 데이터가 담겨 있는 byte 배열
             int offset, // byte 배열 내의 시작 오프셋

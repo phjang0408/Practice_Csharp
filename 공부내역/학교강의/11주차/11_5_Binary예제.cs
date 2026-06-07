@@ -8,9 +8,9 @@ namespace MySpace
             FileStream("a.dat", FileMode.Create)))
             {   // 순서는 항상 기억! int-string-uing-string-double
                 bw.Write(int.MaxValue);     // 4(bytes)
-                bw.Write("Good Morning!");  // 1 + 13(bytes)
+                bw.Write("Good Morning!");  // 영어는 한 글자에 1(bytes) => 1 + 13(bytes) = 14
                 bw.Write(uint.MaxValue);    // 4(bytes)
-                bw.Write("안녕하세요.");       // "한글"은 한 글자에 3(bytes)!, 1 + (3*5 + 1(마침표))로 총 17
+                bw.Write("안녕하세요.");       // "한글"은 한 글자에 3(bytes) => 1 + (3*5) + 1(마침표)로 총 17
                 bw.Write(double.MaxValue);  // 8(bytes)
                 // 4 + 14 + 4 + 17 + 8 = 47(bytes)
             }
