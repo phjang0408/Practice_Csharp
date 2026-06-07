@@ -3,3 +3,6 @@ obj/
 *.exe
 .DS_Store
 .vs/
+학교파일/
+.omc/
+CLAUDE.md
