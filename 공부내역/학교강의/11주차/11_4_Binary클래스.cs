@@ -6,7 +6,7 @@ namespace MySpace
         // BinaryWriter, BinaryReader
         static void Main(string[] args)
         {
-            // 1. BinaryWriter : Reader도 마찬가지로, "생성자 인자로 Stream객체를 받음"
+            // 1. BinaryWriter : Reader도 마찬가지로, "생성자 인자로, Stream객체를 받음"
             BinaryWriter bw = new BinaryWriter(new
             FileStream("a.dat", FileMode.Create));
 
