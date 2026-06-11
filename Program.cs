@@ -1,41 +1,27 @@
-using System.Runtime.Serialization.Formatters.Binary;
 namespace MySpace
 {
-    [Serializable]
-    class NameCard
+    class MainClass
     {
-        public NameCard(string Name, string Phone, int Age)
+        delegate void ThereIsAFire(string location);
+        static void Call119(string location)
         {
-            this.Name = Name; this.Phone = Phone; this.Age = Age;
+            Console.WriteLine("소방서죠? 불났어요! 주소는{0}", location);
         }
-        public string Name;
-        public string Phone;
-        public int Age;
-    }
-    class MyClass
-    {
+        static void ShotOut(string location)
+        {
+            Console.WriteLine("피하세요! {0}에불이났어요!", location);
+        }
+        static void Escape(string location)
+        {
+            Console.WriteLine("{0}에서나갑시다!", location);
+        }
         static void Main(string[] args)
         {
-            using (Stream ws = new FileStream("a.dat", FileMode.Create))
-            {
-                BinaryFormatter serializer = new BinaryFormatter();
-
-                List<NameCard> list = new List<NameCard>();
-                list.Add(new NameCard("홍길동", "010-123-4567", 33));
-                list.Add(new NameCard("손오공", "010-123-1111", 22));
-                list.Add(new NameCard("사오정", "010-123-2222", 26));
-
-                serializer.Serialize(ws, list);
-            }
-
-            using Stream rs = new FileStream("a.dat", FileMode.Open);
-            BinaryFormatter deserializer = new BinaryFormatter();
-
-            List<NameCard> list2;
-            list2 = (List<NameCard>)deserializer.Deserialize(rs);
-
-            foreach(NameCard nc in list2)
-                Console.WriteLine($"Name:  {nc.Name}, Phone:  {nc.Phone}, Age:  {nc.Age}");
+            ThereIsAFire Fire = new ThereIsAFire(Call119);
+            Fire += new ThereIsAFire(ShotOut);
+            //Fire += new ThereIsAFire(Escape);
+            Fire += Escape;
+            Fire("우리집");
         }
     }
 }
