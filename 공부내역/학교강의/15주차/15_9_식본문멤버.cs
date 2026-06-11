@@ -2,11 +2,11 @@ namespace MySpace
 {
     class FriendList
     {
-        // list ÇÊµå ÇÏ³ª¸¦ °¡Áö´Â, FriendList Å¬·¡½º ¼±¾ğ
+        // list í•„ë“œ í•˜ë‚˜ë¥¼ ê°€ì§€ëŠ”, FriendList í´ë˜ìŠ¤ ì„ ì–¸
         private List<string> list = new List<string>();
 
-        // ½Ä º»¹® ¸â¹ö : º»¹®À» ½ÄÀ¸·Î¸¸ Ç¥ÇöÇÏ´Â ¹æ½Ä\
-        // { return ...; } ´ë½Å => ÇÏ³ª·Î º»¹®À» Ç¥ÇöÇÏ´Â ¹®¹ı. ÄÚµå°¡ Âª¾ÆÁø´Ù.
+        // ì‹ ë³¸ë¬¸ ë©¤ë²„ : ë³¸ë¬¸ì„ ì‹ìœ¼ë¡œë§Œ í‘œí˜„í•˜ëŠ” ë°©ì‹\
+        // { return ...; } ëŒ€ì‹  => í•˜ë‚˜ë¡œ ë³¸ë¬¸ì„ í‘œí˜„í•˜ëŠ” ë¬¸ë²•. ì½”ë“œê°€ ì§§ì•„ì§„ë‹¤.
         public void Add(string name) => list.Add(name);
         public void Remove(string name) => list.Remove(name);
         public void PrintAll()
@@ -15,19 +15,19 @@ namespace MySpace
                 Console.WriteLine(s);
         }
 
-        // »ı¼ºÀÚ, Á¾·áÀÚµµ ½ÄÀ¸·Î ±¸Çö °¡´É
-        public FriendList() => Console.WriteLine("FriendList()"); // »ı¼ºÀÚ
+        // ìƒì„±ì, ì¢…ë£Œìë„ ì‹ìœ¼ë¡œ êµ¬í˜„ ê°€ëŠ¥
+        public FriendList() => Console.WriteLine("FriendList()"); // ìƒì„±ì
         ~FriendList() => Console.WriteLine("~FriendList()");
 
-        // ÇÁ·ÎÆÛÆ¼µµ ±¸Çö °¡´É
-        //public int Capacity => list.Capacity; // ÀĞ±âÀü¿ë
+        // í”„ë¡œí¼í‹°ë„ êµ¬í˜„ ê°€ëŠ¥
+        //public int Capacity => list.Capacity; // ì½ê¸°ì „ìš©
         public int Capacity
         {
             get => list.Capacity;
             set => list.Capacity = value;
         }
-        // ÀÎµ¦¼­µµ ±¸Çö °¡´É
-        //public string this[int index] => list[index]; // ÀĞ±âÀü¿ë
+        // ì¸ë±ì„œë„ êµ¬í˜„ ê°€ëŠ¥
+        //public string this[int index] => list[index]; // ì½ê¸°ì „ìš©
         public string this[int index]
         {
             get => list[index];
@@ -45,7 +45,7 @@ namespace MySpace
             obj.Remove("Jane");
             obj.PrintAll();
 
-            // Capacity´Â Count¿Í ´Ş¸®, 2¹è·Î ÇÒ´ç, RemoveÇØµµ º¯ÇÏÁö¾ÊÀ½ 
+            // CapacityëŠ” Countì™€ ë‹¬ë¦¬, 2ë°°ë¡œ í• ë‹¹, Removeí•´ë„ ë³€í•˜ì§€ì•ŠìŒ 
             Console.WriteLine($"{obj.Capacity}");   
             obj.Capacity = 10;
             Console.WriteLine($"{obj.Capacity}");
