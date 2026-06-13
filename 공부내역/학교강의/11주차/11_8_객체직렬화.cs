@@ -8,10 +8,10 @@ namespace MySpace
         이를 해결하기 위해, 객체 자체를 통채로 저장하는 방법이 바로 [직렬화]이다.
         덕분에, 필드값을 일일히 Write할 필요도, 순서를 기억할 필요도 없다.
 
-        1. [Serialized], [NonSerialized] 특성
+        1. [Serializable], [NonSerialized] 특성
         2. BinaryFormatter 클래스 : 객체 단위로 직렬화, 역직렬화하는 클래스
-           - Serialize(Stream, Object) : 객체를 직렬화하여 저장하는 메서드
-           - Deserialize(Stream) : 직렬화된 데이터를 역직렬화하여 객체로 반환하는 메서드
+           - Serialize(Stream, Object) : Object(객체)을 직렬화하여 Stream에 저장하는 메서드
+           - Deserialize(Stream) : 직렬화된 데이터를 역직렬화하여 object 객체로 반환하는 메서드
         => BinaryFormatter와 BinaryReader, BinaryWriter를 헷갈리지 말자!
     */
     [Serializable]   // 직렬화 가능한 클래스임을 명시하는 특성(Attribute)

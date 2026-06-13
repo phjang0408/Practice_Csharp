@@ -26,7 +26,7 @@ namespace Myspace
             // 2. Read 예제
             byte[] rBytes = new byte[8]; // 8바이트 저장공간
             Stream inStream = new FileStream("a.dat",Filemode.Open);
-            inStream.Read(rBytes, 0, rBytes.Length); // 파일에서 8바이트만큼 읽어, rBytes에 저장
+            inStream.Read(rBytes, 0, rBytes.Length); // 파일에서 0부터 8바이트만큼 읽어, rBytes에 저장
 
             long readValue = BitConverter.Toint64(rBytes,0); // rBytes를 long으로 변환
             Console.WriteLine("{0,-13} : 0x{1:X16}", "Read Data", readValue);

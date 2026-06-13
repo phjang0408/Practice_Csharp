@@ -26,6 +26,8 @@ namespace MySpace
             Pr(outStream.Position);
 
             outStream.Close();
+
+            // SeekOrigin -> Begin, Current, End 3개 있음
         }
         void Pr(string str)
         { Console.WriteLine($"Position : {str}");}

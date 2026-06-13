@@ -24,7 +24,7 @@ namespace MySpace
             int a = br.ReadInt32();
             string b = br.ReadString();
             double c = br.ReadDouble();
-
+            
             br.Close();
         }
     }

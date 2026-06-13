@@ -55,7 +55,7 @@ namespace MySpace
             int[] array2 = { 7, 2, 8, 10, 11 };
             Console.WriteLine("\nSorting descending...");
 
-            BubbleSort(array2, new Compare(DescendCompare));
+            BubbleSort(array2, DescendCompare);
 
             for (int i = 0; i < array2.Length; i++)
                 Console.Write($"{array2[i]} ");
